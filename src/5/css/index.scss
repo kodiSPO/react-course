@@ -1,0 +1,23 @@
+.news-item {
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid #000;
+  display: flex;
+
+  img {
+    flex-shrink: 0;
+  }
+
+  .news-item__text-cont {
+    padding-left: 15px;
+
+    .news-item__hashtags {
+      font-weight: 700;
+      color: darkred;
+    }
+
+    .news-item__author {
+      color: darkblue;
+    }
+  }
+}

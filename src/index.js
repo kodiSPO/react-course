@@ -9,7 +9,8 @@ import "noty/src/themes/mint.scss";
 // import App from './1/App';
 // import App from './2/App';
 // import App from './3/App';
-import App from './4/App';
+// import App from './4/App';
+import App from './5/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);

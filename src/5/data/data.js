@@ -58,7 +58,7 @@ export function generateNewsItem() {
         title: faker.lorem.sentence(3),
         description: faker.lorem.sentence(5),
         text: faker.lorem.sentences(3),
-        image: faker.image.cats(300, 300) + '?v=' + Date.now(),
+        image: faker.image.cats(300, 300) + '?v=' + faker.datatype.uuid(),
         hashtags: getRandomHashtags(3),
         author: AUTHORS[getRandomInt(AUTHORS.length - 1)].id,
     };

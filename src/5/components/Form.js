@@ -90,7 +90,7 @@ export class Form extends Component {
         const {title, description, text, hashtags, author} = this.state;
 
         return (
-            <div>
+            <>
                 <form className="news-form" onSubmit={this.handleSubmit}>
                     <div>
                         <label>
@@ -151,7 +151,7 @@ export class Form extends Component {
                         <button type="button" onClick={() => onAddRandom()}>Add random</button>
                     </div>
                 </form>
-            </div>
+            </>
         );
     }
 }

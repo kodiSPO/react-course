@@ -8,7 +8,6 @@ export class List extends Component {
 
         return (
             <div>
-                List
                 {news.map((item) => (
                     <div key={item.id}>
                         <Item item={item} onRemove={onRemove}/>

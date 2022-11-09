@@ -1,5 +1,9 @@
 .App {
   padding: 30px;
+
+  & > button {
+    margin-right: 15px;
+  }
 }
 
 .news-form {
@@ -76,6 +80,29 @@
 
     .news-item__author {
       color: darkblue;
+    }
+  }
+}
+
+.filter {
+  width: 400px;
+  margin-top: 15px;
+
+  [type='text'],
+  select {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    height: 30px;
+  }
+
+  .filter__tags {
+    label {
+      display: flex;
+
+      span {
+        margin-left: 10px;
+      }
     }
   }
 }

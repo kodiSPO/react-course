@@ -1,0 +1,12 @@
+.App {
+  padding: 30px;
+}
+
+.nav {
+  & > span {
+    span,a {
+      display: inline-block;
+      padding: 0 10px;
+    }
+  }
+}

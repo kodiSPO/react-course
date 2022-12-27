@@ -1,0 +1,108 @@
+.App {
+  padding: 30px;
+
+  & > button {
+    margin-right: 15px;
+  }
+}
+
+.news-form {
+  width: 400px;
+
+  label {
+    display: block;
+    margin-top: 15px;
+  }
+
+  [type='text'],
+  [type='file'],
+  textarea {
+    display: block;
+    width: 100%;
+  }
+
+  span {
+    display: block;
+    font-weight: 700;
+  }
+
+  .news-form__choices {
+    display: flex;
+
+    .news-form__list {
+      flex: 0 1 50%;
+
+      & > span {
+        margin-top: 15px;
+      }
+
+      label {
+        display: flex;
+        align-items: center;
+        margin-top: unset;
+
+        span {
+          margin-left: 10px;
+          font-weight: 400;
+          margin-top: unset;
+        }
+      }
+    }
+  }
+
+  .news-form__bttns {
+    display: flex;
+    margin-top: 15px;
+
+    button {
+      margin-right: 15px;
+    }
+  }
+}
+
+.news-item {
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid #000;
+  display: flex;
+
+  img {
+    flex-shrink: 0;
+  }
+
+  .news-item__text-cont {
+    padding-left: 15px;
+
+    .news-item__hashtags {
+      font-weight: 700;
+      color: darkred;
+    }
+
+    .news-item__author {
+      color: darkblue;
+    }
+  }
+}
+
+.filter {
+  width: 400px;
+  margin-top: 15px;
+
+  [type='text'],
+  select {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    height: 30px;
+  }
+
+  .filter__tags {
+    label {
+      display: flex;
+
+      span {
+        margin-left: 10px;
+      }
+    }
+  }
+}
